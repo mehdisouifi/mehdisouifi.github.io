@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slow Craft Works</title>
+<meta name="description" content="Slow Craft Works — long-form films of leatherwork made by hand in Barcelona.">
+<style>
+  :root {
+    --bg: #faf8f5; --ink: #1d1a17; --muted: #6b635a; --rule: #e2dbd1;
+    --accent: #9a4f1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16130f; --ink: #f2ece4; --muted: #a79c8f; --rule: #332c24;
+            --accent: #d98b4a; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.65 ui-serif, Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 72px 16px 96px; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 .4em; letter-spacing: -.01em; }
+  .lede { color: var(--muted); font-size: 1.1rem; margin: 0 0 2.5em; }
+  h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: .08em;
+       font-family: ui-sans-serif, system-ui, sans-serif; margin: 2.5em 0 .6em; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+  li { margin: .35em 0; }
+  footer { margin-top: 4em; padding-top: 1.5em; border-top: 1px solid var(--rule);
+           color: var(--muted); font-size: .9rem;
+           font-family: ui-sans-serif, system-ui, sans-serif; }
+  footer a { margin-right: 1.2em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Slow Craft Works</h1>
+  <p class="lede">Long-form films of leatherwork made by hand in Barcelona.
+  No narration, no music — the knife, the thread and the hammer.</p>
+
+  <p>Every film follows one object from pattern to finished piece: cutting,
+  skiving, edge work, glueing, saddle stitching, burnishing. Nothing is
+  sped up past the point where you could follow it.</p>
+
+  <p><a href="https://www.youtube.com/@SlowCraftworks">Watch on YouTube →</a></p>
+
+  <h2>About this site</h2>
+  <p>This page exists for a practical reason: the channel's uploads are
+  published by a small private tool that talks to the YouTube Data API, and
+  Google requires such a tool to name a home page and a privacy policy.
+  The tool is used by one person, for one channel.</p>
+
+  <footer>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="https://www.youtube.com/@SlowCraftworks">YouTube</a>
+  </footer>
+</div>
+</body>
+</html>
